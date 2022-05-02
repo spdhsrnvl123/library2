@@ -1,0 +1,72 @@
+
+.content-3-1 {
+  position: absolute;
+  top: 23%;
+  left: 5%;
+  background-size: cover;
+  color: white;
+  width: 600px;
+  height: 400px;
+  /* opacity: 0; */
+}
+.content-3-1 h1 {
+  font-size: 4.5rem;
+}
+.content-3-1 h2 {
+  font-size: 2rem;
+}
+}
+.content-3-1 h1 {
+  font-size: 4.5rem;
+}
+.content-3-1 h2 {
+  font-size: 2rem;
+}
+.content-3-2 {
+  position: absolute;
+  top: 21%;
+}
+.content-3-1.content3-1_appear {
+  transition: all 1s;
+  opacity: 1;
+  transform: translateX(140px);
+}
+.content-3-2 {
+  border-radius: 50%;
+  border: 7px solid palegoldenrod;
+  width: 400px;
+  height: 50vh;
+  background-position-x: -120px;
+  background-image: url("/images/cake2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 16%;
+  right: 25%;
+  /* opacity: 0; */
+}
+.content-3-3 {
+  border-radius: 50%;
+  border: 7px solid palegoldenrod;
+  width: 400px;
+  height: 50vh;
+  background-position-x: -120px;
+  background-image: url("/images/drink.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 40%;
+  right: 5%;
+  /* opacity: 0; */
+}
+.content-3-2.content3-2_appear {
+  transition: all 0.3s 0.7s;
+  opacity: 1;
+}
+.content-3-3.content3-3_appear {
+  transition: all 0.5s 1s;
+  opacity: 1;
+}
+.content-4{
+  background-color: lavender;
+}

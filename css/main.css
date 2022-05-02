@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* -------------------------------------------------- */
+.content-1,
+.content-2,
+.content-3,
+.content-4 {
+  background-image: linear-gradient(135deg, #65fdf0 10%, #1d6fa3 100%);
+  background-attachment: fixed;
+  overflow: hidden;
+}
+.pointWrap {
+  position: fixed;
+  right: 3vw;
+  top: 40%;
+  z-index: 100;
+}
+.pointWrap li {
+  cursor: pointer;
+  margin-top: 44px;
+  list-style: none;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: #ffffff;
+  box-shadow: 0 0 0 10px #00000033, 0 0 0 10px #24ecff22, 0 0 0 20px #24ecff11,
+    0 0 20px #24ecff, 0 0 50px #24ecff;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  height: 70px;
+  width: 100%;
+  background-color: #ffffffcc;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  color: rgb(125, 155, 174);
+}
+
+.menu {
+  color: rgb(125, 155, 174);
+  font-weight: 550;
+  margin-top: 10px;
+}
+.menu ul {
+  display: flex;
+  position: relative;
+}
+.menu ul li {
+  list-style: none;
+  text-decoration: none;
+  padding: 15px;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.menu ul li:hover {
+  font-size: 1.1rem;
+}
+.menu ul li a {
+  text-decoration: none;
+  color: inherit;
+}
+.menu ul ul {
+  display: none;
+}
+.menu ul li:hover ul {
+  position: absolute;
+  display: block;
+}
+/* -------------------------------------------------- */
+section {
+  height: 100vh;
+  width: 100%;
+  /* overflow: hidden; */
+  position: relative;
+}
+
+/* ------------------------------------------------------------ */
+footer {
+  height: 350px;
+  background-color: #2c2a29;
+  color: white;
+}
+.footer_1,
+.footer_3 {
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+.footer_1 li {
+  margin: 30px;
+}
+.footer_1 li a {
+  text-decoration: none;
+  color: rgb(220, 220, 220);
+}
+.footer_1 li a:hover {
+  text-decoration: underline;
+}
+.footer_2 {
+  margin-top: 17px;
+  text-align: center;
+}
+.footer_2 button {
+  padding: 7px;
+  color: white;
+  background-color: transparent;
+  border: 1px solid white;
+  font-size: 1rem;
+  margin: 3px;
+  cursor: pointer;
+}
+.footer_2 button:hover {
+  background-color: rgb(220, 220, 220);
+  color: black;
+  transition: all 0.1s;
+}
+.footer_3 li {
+  margin-left: 25px;
+  color: rgb(220, 220, 220);
+}
+footer p {
+  text-align: center;
+  margin-top: 30px;
+  color: rgb(220, 220, 220);
+}

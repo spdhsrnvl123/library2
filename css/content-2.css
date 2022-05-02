@@ -1,0 +1,117 @@
+.slide_show {
+  list-style: none;
+  height: 250px;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.show {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  top: 0px;
+  transition: all 0.3s ease-in-out;
+}
+.slide_show li {
+  list-style: none;
+  width: 250px;
+  height: 100%;
+  position: relative;
+  cursor: pointer;
+}
+.slide_show li img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.show li .caption {
+  opacity: 0;
+  width: 100%;
+}
+.show li .caption p {
+  position: absolute;
+  font-size: 1rem;
+  font-weight: bold;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.show li:hover .caption {
+  position: absolute;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  border-radius: 50%;
+  text-align: center;
+  color: white;
+  transition: all 0.3s ease-in-out;
+}
+.space_text {
+  position: absolute;
+  z-index: 999;
+  top: 50%;
+  left: 50%;
+  font-size: 2.2rem;
+  color: white;
+  opacity: 1;
+  transform: translate(-50%, -50%);
+}
+/* ----------------------------------------------------------------------- */
+.class_detail {
+  /* border: 2px solid; */
+  width: 830px;
+  height: 270px;
+  margin: 150px auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 2px -2px 5px 0px maroon;
+  border-radius: 20px;
+  overflow: hidden;
+  color: white;
+}
+.class_detail_img.Space_0 {
+  background-image: url(images/Space_0.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 330px;
+  height: 100%;
+}
+.class_detail_img.Space_1 {
+  background-image: url(images/Space_1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 330px;
+  height: 100%;
+}
+.class_detail_img.Space_2 {
+  background-image: url(images/Space_2.png);x   
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 330px;
+  height: 100%;
+}
+.class_detail_img.Space_3 {
+  background-image: url(images/Space_3.jfif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 330px;
+  height: 100%;
+}
+.class_detail_text {
+  position: absolute;
+  top: 20%;
+  left: 45%;
+  font-size: 1.3rem;
+}
+.class_detail_text {
+  position: absolute;
+  top: 20%;
+  font-size: 1rem;
+}

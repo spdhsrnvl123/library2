@@ -1,0 +1,37 @@
+.outer_frame .frame {
+  position: absolute;
+  top: 50%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+  width: 600px;
+  height: 400px;
+  transition: all 0.4s ease-in-out;
+  overflow: hidden;
+  /* opacity: 0; */
+}
+.outer_frame .frame .count {
+  color: white;
+  position: absolute;
+  left: 30%;
+  width: 200px;
+  height: inherit;
+  box-shadow: 4px 14px 40px rgba(0, 0, 0, 0.3);
+  transition: all 0.4s ease-in-out;
+  opacity: 0;
+}
+.outer_frame .frame .img_frame {
+  position: absolute;
+  cursor: pointer;
+  width: 350px;
+  height: 400px;
+}
+.outer_frame .frame:hover .count {
+  left: 58.4%;
+  opacity: 1;
+}
+.outer_frame .frame .img_frame img {
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  width: inherit;
+  height: inherit;
+}

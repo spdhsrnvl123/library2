@@ -1,0 +1,191 @@
+.timer {
+  z-index: 99;
+  position: absolute;
+  /* position: fixed; */
+  flex-direction: column;
+  padding: 10px;
+  top: 20%;
+  left: 7%;
+  width: 200px;
+  height: 500px;
+  color: white;
+  box-shadow: 0px 0px 5px thistle;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.timer img {
+  width: 170px;
+}
+.timer.black {
+  color: black;
+}
+.timer.white {
+  color: white;
+}
+.Economic {
+  margin-bottom: 50px;
+}
+.timer.display {
+  display: none;
+}
+
+/* ------------------------------------------------------------ */
+
+.saying {
+  position: absolute;
+  top: 38%;
+  right: 6%;
+  text-align: center;
+  color: white;
+  z-index: 16;
+}
+.saying h1 {
+  font-size: 3rem;
+}
+.saying:nth-child(1) {
+  animation: indicate 0.5 timing-function delay iteration-count direction
+    fill-mode;
+}
+.saying:nth-child(2) {
+  left: 40%;
+}
+.saying button {
+  margin-top: 10px;
+  width: 100px;
+  height: 50px;
+  color: white;
+  border-radius: 50%;
+  background: none;
+  font-size: 1.2rem;
+  border: 3px solid;
+  box-shadow: 1px 0px 3px 0px;
+  cursor: pointer;
+}
+.saying button:hover {
+  transition: all 0.3s ease-in-out;
+  /* background-color: cornflowerblue; */
+  font-size: 1.5rem;
+  width: 120px;
+  height: 70px;
+}
+.saying.vanish {
+  opacity: 0;
+  transition: all 0.3s;
+}
+
+/* ------------------------------------------------------------ */
+
+.buttonWrap {
+  position: absolute;
+  top: 88%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: space-around;
+}
+.buttonWrap button {
+  padding: 10px;
+  margin: 10px;
+  font-size: 20px;
+  background: transparent;
+  border-radius: 20px;
+  color: white;
+  border: 1px solid seashell;
+  cursor: pointer;
+}
+.buttonWrap button:hover {
+  background-color: aqua;
+  color: black;
+}
+.buttonWrap .second_pointWrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.buttonWrap .second_pointWrap li {
+  width: 7px;
+  height: 7px;
+  margin: 7px;
+  background-color: seashell;
+  border-radius: 50%;
+  cursor: pointer;
+  list-style: none;
+}
+/* -------------------------------------------------------------- */
+.first-decoration {
+  position: relative;
+}
+.first-decoration img:nth-child(1) {
+  width: 300px;
+  position: absolute;
+  z-index: 10;
+  /* top: 50%; */
+  left: 10%;
+}
+.first-decoration img:nth-child(2) {
+  position: absolute;
+  z-index: 10;
+  top: 5%;
+  right: -10%;
+}
+/* -------------------------------------------------------------- */
+.slide-box {
+  overflow: hidden;
+  width: 600px;
+  height: 500px;
+  position: absolute;
+  z-index: 16;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.inner {
+  width: 3000px;
+  height: 500px;
+  display: flex;
+  transition: all 0.5s;
+  /* transform: translate(-600px); */
+}
+.inner .inner-li {
+  width: 100%;
+  margin: 20px;
+  list-style: none;
+  position: relative;
+}
+.inner .inner-li img {
+  box-shadow: 3px -3px 7px rgb(184, 197, 238);
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+}
+.inner .inner-li .inner-li-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+/*--------------------------------------------------------- */
+
+.slide-button-number {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.slide-button-number ul {
+  display: flex;
+}
+.slide-button-number ul li {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin: 10px;
+  list-style: none;
+  cursor: pointer;
+  background-color: rgba(240, 248, 255, 0.891);
+}
